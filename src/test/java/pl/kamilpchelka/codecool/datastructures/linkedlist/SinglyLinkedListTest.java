@@ -2,7 +2,6 @@ package pl.kamilpchelka.codecool.datastructures.linkedlist;
 
 import org.junit.Before;
 import org.junit.Test;
-import pl.kamilpchelka.codecool.datastructures.linkedlist.linkedlist.SinglyLinkedList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
