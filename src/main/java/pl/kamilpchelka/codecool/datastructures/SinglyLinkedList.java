@@ -5,7 +5,7 @@ import java.util.Spliterator;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class MySinglyLinkedList<T> implements MyList<T> {
+public class SinglyLinkedList<T> implements MyList<T> {
 
     private SingleNode<T> head;
     private SingleNode<T> last;
