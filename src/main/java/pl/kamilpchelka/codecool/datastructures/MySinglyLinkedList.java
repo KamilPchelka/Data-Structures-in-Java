@@ -82,7 +82,7 @@ public class MySinglyLinkedList<T> implements MyList<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     @Override
@@ -108,7 +108,7 @@ public class MySinglyLinkedList<T> implements MyList<T> {
 
     @Override
     public Spliterator<T> spliterator() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     public T getLast() {
