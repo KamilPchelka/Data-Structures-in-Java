@@ -1,4 +1,4 @@
-package pl.kamilpchelka.codecool.datastructures;
+package pl.kamilpchelka.codecool.datastructures.linkedlist;
 
 /**
  * Hello world!
