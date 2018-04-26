@@ -1,14 +1,17 @@
 package pl.kamilpchelka.codecool.datastructures.stack;
 
+import pl.kamilpchelka.codecool.datastructures.exceptions.StackOverflow;
+import pl.kamilpchelka.codecool.datastructures.exceptions.StackUnderflow;
+
 public interface Stack<T> {
 
-    void push(T value);
+    void push(T value) throws StackOverflow;
 
-    T pop();
+    void pop() throws StackUnderflow;
 
-    T peek();
+    T peek() throws StackUnderflow;
 
-    int getSize();
+    int getMaximumCapacity();
 
     int leftSpace();
 
