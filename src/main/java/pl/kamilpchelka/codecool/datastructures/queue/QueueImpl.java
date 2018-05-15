@@ -33,11 +33,11 @@ public class QueueImpl<T> implements Queue<T> {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return pointer == -1;
     }
 
     @Override
     public boolean isFull() {
-        return false;
+        return pointer == data.length - 1;
     }
 }
