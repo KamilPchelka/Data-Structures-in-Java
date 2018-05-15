@@ -12,5 +12,7 @@ public interface Queue<T> {
 
     boolean isEmpty();
 
+    boolean isFull();
+
 
 }
