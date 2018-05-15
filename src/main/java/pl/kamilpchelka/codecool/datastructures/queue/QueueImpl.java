@@ -6,7 +6,7 @@ public class QueueImpl<T> implements Queue<T> {
 
     @SuppressWarnings("unchecked")
     public QueueImpl(int size) {
-
+        if (size <= 0) throw new IllegalArgumentException();
         this.data = (T[]) new Object[size];
     }
 
