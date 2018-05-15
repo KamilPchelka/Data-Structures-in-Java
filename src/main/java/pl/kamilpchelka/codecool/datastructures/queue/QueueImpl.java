@@ -3,6 +3,7 @@ package pl.kamilpchelka.codecool.datastructures.queue;
 public class QueueImpl<T> implements Queue<T> {
 
     private final T[] data;
+    private int pointer = -1;
 
     @SuppressWarnings("unchecked")
     public QueueImpl(int size) {
@@ -18,7 +19,7 @@ public class QueueImpl<T> implements Queue<T> {
 
     @Override
     public T peek() {
-        return null;
+        return data[pointer];
     }
 
     @Override
